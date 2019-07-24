@@ -18,11 +18,7 @@ Citizen.CreateThread(function()
 	while ESX == nil do
 		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 		Citizen.Wait(0)
-	end
-	TriggerEvent('es:setMoneyDisplay', 0.0)
-	ESX.UI.HUD.SetDisplay(0.0)
-
-
+	end	
 	--Updates the UI on start
 	NetworkSetTalkerProximity(10.0)
 end)
@@ -30,8 +26,6 @@ end)
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
-		TriggerEvent('es:setMoneyDisplay', 0.0)
-		ESX.UI.HUD.SetDisplay(0.0)
 		if isTalking == false then
 			if NetworkIsPlayerTalking(PlayerId()) then
 				isTalking = true
