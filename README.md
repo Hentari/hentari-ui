@@ -1,7 +1,5 @@
 # hentari-ui
-![alt text](https://i.imgur.com/VvyehvF.png)
-
-Health, Food, Water, Voice proximity HUD
-(esx_voice with animation fix for oneSync included)
-
+![alt text](https://i.imgur.com/VvyehvF.png)<br/>
+Health, Food, Water, Voice proximity HUD<br/>
+(esx_voice with animation fix for oneSync included)<br/>
 fivem-ui edit
